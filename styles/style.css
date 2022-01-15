@@ -208,7 +208,7 @@ footer {
 
 /* media query */
 
-@media only screen and (max-width: 688px) {
+@media screen and (max-width: 688px) {
     .top-menu {
         display: none;
     }
@@ -218,6 +218,7 @@ footer {
 
         margin-top: -80px;
     }
+
     .top-header {
         display: block;
     }
@@ -247,7 +248,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 992px) {
+@media screen and (min-width: 688px) and (max-width: 992px) {
     .top-menu {
         display: none;
     }
@@ -257,6 +258,7 @@ footer {
 
         margin-top: -80px;
     }
+
     .top-header {
         display: block;
     }
